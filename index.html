@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FullPageJS</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css">
+    <link rel="stylesheet" href="./fullpage.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -17,30 +18,10 @@
         <div class="section s4">Some section</div>
     </div>
     <style>
-        .s1{
-            background-color: brown;
-        }
-        .s2{
-            background-color: darkblue;
-        }
-        .s3{
-            background-color: darkolivegreen;
-        }
-        .s4{
-            background-color: deeppink;
-        }
-    </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"></script>
-    <script>
-        new fullpage('#fullpage', {
-            //options here
-            autoScrolling: true,
-            scrollHorizontally: true
-        });
 
-        //methods
-        fullpage_api.setAllowScrolling(false);
-    </script>
+    </style>
+    <script src="./fullpage.min.js"></script>
+    <script src="./init.js"></script>
 </body>
 
 </html>
